@@ -1,0 +1,37 @@
+.about-container {
+  padding: 1.5em 0.5em 2.5em 0.5em;
+  display: flex;
+  justify-content: center;
+}
+.about-card {
+  display: flex;
+  flex-direction: row;
+  background: var(--bg-secondary);
+  border-radius: 17px;
+  box-shadow: 0 2px 8px #007aff11;
+  max-width: 700px;
+  align-items: center;
+  padding: 2rem 2.2em;
+  gap: 1.5em;
+  width: 100%;
+}
+.about-headshot {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 4px solid var(--accent, #007aff);
+  box-shadow: 0 2px 12px #007aff22;
+}
+.about-info { flex: 1; }
+.about-info h3 {
+  margin-top: 0;
+  margin-bottom: 0.7em;
+  color: var(--accent, #007aff);
+}
+.btn-accent {
+  margin-top: 1em;
+}
+@media (max-width: 650px) {
+  .about-card { flex-direction: column; padding: 1.2rem 1em; gap: 0.7em; }
+}

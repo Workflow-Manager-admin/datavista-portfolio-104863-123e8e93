@@ -1,0 +1,17 @@
+.footer {
+  padding: 1.25em 0.4em;
+  background: var(--bg-secondary, #e5e7eb);
+  color: var(--text-primary, #0e141b);
+  font-size: 1em;
+  text-align: center;
+  border-radius: 18px 18px 0 0;
+  margin-top: 2.7em;
+  border-top: 1px solid var(--border-color);
+}
+.footer-link {
+  color: var(--accent, #007aff);
+  margin-left: 0.5em;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer-link:hover { text-decoration: underline; }
